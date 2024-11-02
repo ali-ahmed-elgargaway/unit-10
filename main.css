@@ -1,0 +1,296 @@
+.header-one{
+    background-image: url(بيتزا-بالسلامي.webp);
+    background-size:cover;
+    background-repeat:no-repeat;
+    position: relative;
+    height: 100vh;
+  
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 50px;
+    height: 50px;
+    padding:20px ;
+}
+ul{
+    display:flex;
+}
+li{
+    list-style: none;
+    padding: 20px;
+}
+ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.header-one::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.401); 
+    position: absolute;
+    top: 0px;
+    left:0px;
+}
+ .header-one div{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    padding: 20px;
+    
+  
+
+}
+span{
+    color: gold;
+}
+.section-one div h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 60px;
+}
+ .section-one div p{
+    color: white;
+    font-size: 25px;
+}
+ .section-one div a{
+    border-color:white;
+    color: white;
+    border: solid 1px;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}  
+
+
+
+
+
+.section-two{
+    background-color: rgb(87, 87, 87);
+    color: #9a9a9a;
+    height: 110vh;
+    margin-top: 60px;
+    
+}
+.pairent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.section-two .header{
+    text-align: center;
+}
+.header p{
+    font-size: 25px;
+}
+.header h1{
+    font-size: 40px;
+    color: black;
+}
+.section-two img{
+    width: 200px;
+    height: 200px;
+}
+.img{
+    display: grid;
+    grid-template-areas:
+    "image-1 image-2" 
+    "image-3 image-4";
+   
+    
+   
+}
+.image-1{
+    grid-area:" image-1";
+    padding-bottom: 60px;
+    padding-bottom: 60px;
+    padding-right:30px ;
+       
+
+}
+.image-2{
+    grid-area: "image-2";
+}
+.image-3{
+    grid-area: "image-3";
+    padding-bottom: 60px;
+    padding-bottom: 60px;
+    padding-right:30px ;   
+}
+.image-4{
+    grid-area: "image-4";
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.section-two div a{
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.section-three{
+    margin-top: 60px;
+    background-color: black;
+}
+.section-three h1{
+    color: gold;
+    text-align: center;
+    font-size: 40px;
+}
+.section-three p{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+.pairent2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pairent2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.section-four{
+    margin-top: 60px;
+    background-color: #f4f2ed;
+}
+.section-four .menu{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr ;
+}
+.menu .order{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.menu .order .content{
+    display: flex;
+    flex-direction:column;
+
+}
+.section-four img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.section-four a{
+    background-color: gold;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+   
+
+}
+.section-four .btn{
+    display: flex;
+    justify-content: center;
+
+}
+ .section-four h1{
+    text-align: center;
+    font-size: 40px;
+
+ }
+ .section-four p{
+    text-align: center;
+    font-size: 25px;
+ }
+ .section-five{
+    margin-top: 60px;
+    background:black;
+ }
+ .section-five img{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+   
+ }
+ .section-five div{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   gap: 20px;
+
+ }
+ .section-five h1{
+    text-align: center;
+    color: white;
+    padding: 30px;
+ }
+ .section-sex{
+    margin-top: 60px;
+    background-image: url(WhatsApp\ Image\ 2024-11-02\ at\ 10.15.24_cad3b28f.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+   
+ }
+ 
+ .section-sex img{
+    width: 100px;
+    height: 100px;
+ }
+ .section-seven{
+    background-color: #9a9a9a;
+    display: grid;
+   grid-template-columns:1fr 1fr ;
+   margin-top:60px;
+ }
+ .section-seven .your-information{
+    padding: 20px;
+    margin: 50px;
+ }
+ .your-information div{
+    margin:10px ;
+ }
+ .section-seven input{
+    width: 700px;
+   padding-bottom: 20px;
+    margin: 20px;
+    border-radius: 10px;
+ }
+ .section-seven textarea{
+    width: 700px;
+    padding-bottom: 20px ;
+    margin: 20px;
+    border-radius: 20px;
+ }
+ .my-information{
+    margin: 50px;
+ }
+  .icon i{
+    margin-right: 5px;
+    font-size: 30px;
+ }
+ .your-information a{
+    background-color: gold;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+
+ }
+ 
